@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Pacifico&display=swap');
+body {
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  background-image: linear-gradient(to right, #B7E4F4, #A7CFF2);
+  margin: 0;
+
+}
+
+main {
+  background-color: hsla(223, 72%, 64%, 0.74);
+  margin: auto;
+  margin-top: 0;
+  padding: 100px;
+  text-align: center;
+
+}
+
+h2 {
+  margin: 0;
+  color: #305473;
+}
+
+h1 {
+  width: 40%;
+  margin: 50px auto 0 auto;
+  font-family: 'Handlee', cursive;
+  font-size: 9em;
+  color: #FFB72B;
+  line-height: 90px;
+}
+
+h3 {
+  font-size: 2em;
+  margin-top: 250px;
+  color: #F7F6DC;
+}
+
+a:link {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: #305473;
+}
+
+a:visited {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: #305473;
+}
+
+a:hover {
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+form {
+  margin-top: 20px;
+  line-height: 50px;
+  padding: 5px;
+}
+
+hr {
+
+  margin: 5px auto;
+  border: 0;
+  border-top: 5px;
+  border-top-width: 5px;
+  border-top-style: dotted;
+  border-top-color: #f7c911;
+
+}
+
+.ic {
+  padding: 5px;
+}
+
+.insc {
+  margin: 10px 50% 10px 10px;
+  padding: 5px;
+  border: 5px;
+  border-color: #305473;
+  border-style: solid;
+}
+
+
+.apresentacao {
+  display: inline-block;
+  text-align: justify;
+  width: 90%;
+  margin: 20px 190px 20px 35px;
+  padding: 25px;
+  background-color: rgba(255, 245, 250, 0.8);
+  border-radius: 20px;
+  box-shadow: 5px 8px 5px rgba(167, 207, 242, 0.9);
+  position: relative;
+  left: 100px;
+}
+
+.nikole {
+  position: relative;
+  right: 300px;
+  width: 800px;
+  margin: auto;
+  padding: 45px 25px 25px 25px;
+  background-color: rgba(255, 245, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: -5px 8px 4px rgb(167, 207, 242);
+}
+
+.menu {
+  background-color: #85A6C2;
+  text-align: right;
+  padding: 10px;
+  padding-right: 40px;
+  word-spacing: 15px;
+}
+
+.academy {
+  font-family: 'Pacifico', cursive;
+  font-size: 0.6em;
+  margin: 0 auto 0 40%;
+}
+
+.destaque {
+  background-color: #FFB72B;
+  text-decoration: underline;
+}
+
+.primeiraparte {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: start;
+}
+
+.img-mic {
+  position: relative;
+  bottom: 200px;
+  left: 100px;
+  margin: 20px 75px 20px 150px;
+  border-radius: 100%;
+  border: 5px dotted #f7c911;
+}
+
+.container2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: start;
+  background-color: rgba(144, 170, 203, 0.7);
+}
+
+.nikolefoto {
+  border-radius: 150%;
+  border: 5px dotted #f7c911;
+  position: relative;
+  bottom: 150px;
+  margin-left: 100px;
+}
